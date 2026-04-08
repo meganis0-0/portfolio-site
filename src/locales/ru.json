@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "research": "Исследования",
+    "education": "Образование",
+    "blog": "Блог",
+    "contact": "Контакты",
+    "downloadCV": "Скачать резюме"
+  },
+  "hero": {
+    "greeting": "Привет, я",
+    "name": "Никита MEGANIS",
+    "roles": ["Разработчик ПО", "Исследователь", "Студент", "Инженер", "Программист", "Data Scientist", "ML Инженер"],
+    "description": "Разрабатываю веб-приложения и исследую идеи на пересечении технологий и науки.",
+    "cta": {
+      "projects": "Мои проекты",
+      "contact": "Связаться"
+    }
+  },
+  "about": {
+    "title": "Обо мне",
+    "subtitle": "Разработчик и исследователь",
+    "bio": [
+      "Я — разработчик программного обеспечения и студент, увлечённый созданием значимых приложений и вкладом в научные исследования. Обладая крепкой базой в информатике, я люблю решать сложные задачи элегантными методами.",
+      "Когда я не пишу код, я погружаюсь в исследовательские статьи, экспериментирую с новыми технологиями или работаю над академическими проектами. Я верю в силу технологий изменять мир."
+    ],
+    "facts": [
+      { "label": "Университет", "value": "МАИ" },
+      { "label": "Степень", "value": "Бак. Прикладная информатика" },
+      { "label": "Город", "value": "Москва, Россия" },
+      { "label": "Открыт к", "value": "Стажировкам и сотрудничеству" }
+    ]
+  },
+  "skills": {
+    "title": "Навыки",
+    "subtitle": "Технологии, с которыми я работаю",
+    "categories": [
+      {
+        "name": "Языки программирования",
+        "items": ["Python", "JavaScript", "TypeScript", "C++", "SQL"]
+      },
+      {
+        "name": "Фреймворки и библиотеки",
+        "items": ["React", "Node.js", "FastAPI", "Django", "PyTorch"]
+      },
+      {
+        "name": "Инструменты и платформы",
+        "items": ["Git", "Docker", "Linux", "GitHub Actions", "PostgreSQL"]
+      },
+      {
+        "name": "Исследования",
+        "items": ["LaTeX", "Jupyter", "NumPy", "Pandas", "Matplotlib"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Проекты",
+    "subtitle": "То, что я создал",
+    "github": "GitHub",
+    "demo": "Демо",
+    "items": [
+      {
+        "title": "Проект Альфа",
+        "description": "Полностековое веб-приложение, решающее реальную задачу. Создано на React с Python-бэкендом, включает обработку данных в реальном времени и интуитивный интерфейс.",
+        "tags": ["React", "FastAPI", "PostgreSQL", "Docker"],
+        "github": "https://github.com/yourusername/project-alpha",
+        "demo": "https://project-alpha.example.com"
+      },
+      {
+        "title": "Проект Бета",
+        "description": "Пайплайн машинного обучения для анализа данных и прогнозирования. Включает предобработку данных, обучение модели и дашборд визуализации.",
+        "tags": ["Python", "PyTorch", "Pandas", "Jupyter"],
+        "github": "https://github.com/yourusername/project-beta",
+        "demo": null
+      },
+      {
+        "title": "Проект Гамма",
+        "description": "Open-source CLI инструмент для автоматизации рутинных задач разработки. Поддерживает несколько платформ, имеет более 100 звёзд на GitHub.",
+        "tags": ["Python", "Click", "Shell"],
+        "github": "https://github.com/yourusername/project-gamma",
+        "demo": null
+      }
+    ]
+  },
+  "research": {
+    "title": "Исследования",
+    "subtitle": "Научные работы и публикации",
+    "pdf": "PDF",
+    "doi": "DOI",
+    "items": [
+      {
+        "title": "Название вашей научной статьи или диссертации",
+        "venue": "Международный журнал информатики / Название конференции",
+        "year": "2024",
+        "description": "Краткое описание исследования. Какая задача решалась, какой метод использовался, каков ключевой результат.",
+        "pdf": null,
+        "doi": null,
+        "type": "journal"
+      },
+      {
+        "title": "Другая научная работа: исследование интересной темы",
+        "venue": "Семинар по передовым темам, Название университета",
+        "year": "2023",
+        "description": "Курсовая или самостоятельная исследовательская работа по конкретной научной или инженерной теме с экспериментальной оценкой.",
+        "pdf": null,
+        "doi": null,
+        "type": "conference"
+      },
+      {
+        "title": "Название бакалаврской / магистерской диссертации",
+        "venue": "Ваш Университет",
+        "year": "2023",
+        "description": "Диссертация, исследующая определённую область. Включает обзор литературы, методологию, эксперименты и выводы.",
+        "pdf": null,
+        "doi": null,
+        "type": "thesis"
+      }
+    ]
+  },
+  "education": {
+    "title": "Образование",
+    "subtitle": "Академический путь",
+    "items": [
+      {
+        "degree": "Магистратура, Информатика",
+        "institution": "Ваш Университет",
+        "period": "2023 — н.в.",
+        "description": "Специализация: машинное обучение и распределённые системы. ГПА: X.X/5.0",
+        "current": true
+      },
+      {
+        "degree": "Бакалавриат, Информатика",
+        "institution": "Ваш Университет",
+        "period": "2019 — 2023",
+        "description": "Базовая подготовка по алгоритмам, структурам данных, ОС, СУБД и разработке ПО. Окончил с отличием.",
+        "current": false
+      }
+    ]
+  },
+  "blog": {
+    "title": "Блог",
+    "subtitle": "Статьи и заметки",
+    "readMore": "Читать далее",
+    "items": [
+      {
+        "title": "Начало работы с FastAPI и PostgreSQL",
+        "date": "Март 2024",
+        "description": "Практическое руководство по созданию production-ready REST API с FastAPI, SQLAlchemy и PostgreSQL — от настройки до деплоя.",
+        "url": "https://medium.com/@yourusername/article-1",
+        "platform": "Medium"
+      },
+      {
+        "title": "Понимание механизмов внимания в трансформерах",
+        "date": "Январь 2024",
+        "description": "Глубокое погружение в работу self-attention с визуализациями и примерами кода на PyTorch.",
+        "url": "https://habr.com/ru/users/yourusername/posts/",
+        "platform": "Habr"
+      },
+      {
+        "title": "Чистая архитектура в Python-проектах",
+        "date": "Ноябрь 2023",
+        "description": "Как структурировать Python-проекты для удобства сопровождения и тестирования с использованием принципов чистой архитектуры.",
+        "url": "https://medium.com/@yourusername/article-3",
+        "platform": "Medium"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Контакты",
+    "subtitle": "Давайте свяжемся",
+    "description": "Открыт для стажировок, научного сотрудничества и интересных проектов. Свяжитесь через любой удобный канал.",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/meganis0-0", "type": "github" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/yourusername", "type": "linkedin" },
+      { "label": "Email", "url": "mailto:you@example.com", "type": "email" },
+      { "label": "Telegram", "url": "https://t.me/yourusername", "type": "telegram" }
+    ]
+  }
+}

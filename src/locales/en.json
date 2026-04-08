@@ -1,0 +1,181 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "research": "Research",
+    "education": "Education",
+    "blog": "Blog",
+    "contact": "Contact",
+    "downloadCV": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Nick MEGANIS",
+    "roles": ["Software Developer", "Researcher", "Student", "Engineer", "Programmer", "Data Scientist", "ML Engineer"],
+    "description": "I build things for the web and explore ideas at the intersection of technology and science.",
+    "cta": {
+      "projects": "View Projects",
+      "contact": "Get in Touch"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Developer & Researcher",
+    "bio": [
+      "I'm a software developer and student passionate about building impactful applications and contributing to scientific research. With a strong foundation in computer science, I enjoy solving complex problems with elegant solutions.",
+      "When I'm not writing code, I'm diving into research papers, experimenting with new technologies, or working on my academic projects. I believe in the power of technology to change the world."
+    ],
+    "facts": [
+      { "label": "University", "value": "MAI" },
+      { "label": "Degree", "value": "B.Sc. Applied Computer Science" },
+      { "label": "Location", "value": "Moscow, Russia" },
+      { "label": "Available for", "value": "Internships & Collaboration" }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies I work with",
+    "categories": [
+      {
+        "name": "Languages",
+        "items": ["Python", "JavaScript", "TypeScript", "C++", "SQL"]
+      },
+      {
+        "name": "Frameworks & Libraries",
+        "items": ["React", "Node.js", "FastAPI", "Django", "PyTorch"]
+      },
+      {
+        "name": "Tools & Platforms",
+        "items": ["Git", "Docker", "Linux", "GitHub Actions", "PostgreSQL"]
+      },
+      {
+        "name": "Research",
+        "items": ["LaTeX", "Jupyter", "NumPy", "Pandas", "Matplotlib"]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Things I've built",
+    "github": "GitHub",
+    "demo": "Live Demo",
+    "items": [
+      {
+        "title": "Project Alpha",
+        "description": "A full-stack web application that solves a real-world problem. Built with React and a Python backend, featuring real-time data processing and an intuitive UI.",
+        "tags": ["React", "FastAPI", "PostgreSQL", "Docker"],
+        "github": "https://github.com/yourusername/project-alpha",
+        "demo": "https://project-alpha.example.com"
+      },
+      {
+        "title": "Project Beta",
+        "description": "A machine learning pipeline for data analysis and prediction. Includes data preprocessing, model training, and a visualization dashboard.",
+        "tags": ["Python", "PyTorch", "Pandas", "Jupyter"],
+        "github": "https://github.com/yourusername/project-beta",
+        "demo": null
+      },
+      {
+        "title": "Project Gamma",
+        "description": "An open-source CLI tool that automates repetitive development tasks. Supports multiple platforms and has 100+ GitHub stars.",
+        "tags": ["Python", "Click", "Shell"],
+        "github": "https://github.com/yourusername/project-gamma",
+        "demo": null
+      }
+    ]
+  },
+  "research": {
+    "title": "Research",
+    "subtitle": "Academic work & publications",
+    "pdf": "PDF",
+    "doi": "DOI",
+    "items": [
+      {
+        "title": "Title of Your Research Paper or Thesis",
+        "venue": "International Journal of Computer Science / Conference Name",
+        "year": "2024",
+        "description": "Brief abstract or description of the research. What problem was addressed, what method was used, what was the key finding.",
+        "pdf": null,
+        "doi": null,
+        "type": "journal"
+      },
+      {
+        "title": "Another Research Work: Study of Something Interesting",
+        "venue": "Workshop on Advanced Topics, University Name",
+        "year": "2023",
+        "description": "Course or independent research project exploring a specific scientific or engineering topic with experimental evaluation.",
+        "pdf": null,
+        "doi": null,
+        "type": "conference"
+      },
+      {
+        "title": "Bachelor's / Master's Thesis Title",
+        "venue": "Your University",
+        "year": "2023",
+        "description": "Thesis investigating a particular domain. Includes literature review, methodology, experiments, and conclusions.",
+        "pdf": null,
+        "doi": null,
+        "type": "thesis"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Academic background",
+    "items": [
+      {
+        "degree": "M.Sc. in Computer Science",
+        "institution": "Your University",
+        "period": "2023 — Present",
+        "description": "Specialization in machine learning and distributed systems. GPA: X.X/5.0",
+        "current": true
+      },
+      {
+        "degree": "B.Sc. in Computer Science",
+        "institution": "Your University",
+        "period": "2019 — 2023",
+        "description": "Core curriculum in algorithms, data structures, OS, databases, and software engineering. Graduated with honors.",
+        "current": false
+      }
+    ]
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Articles & notes",
+    "readMore": "Read more",
+    "items": [
+      {
+        "title": "Getting Started with FastAPI and PostgreSQL",
+        "date": "March 2024",
+        "description": "A practical guide to building a production-ready REST API with FastAPI, SQLAlchemy, and PostgreSQL — from setup to deployment.",
+        "url": "https://medium.com/@yourusername/article-1",
+        "platform": "Medium"
+      },
+      {
+        "title": "Understanding Attention Mechanisms in Transformers",
+        "date": "January 2024",
+        "description": "A deep dive into how self-attention works, with visualizations and code examples in PyTorch.",
+        "url": "https://habr.com/ru/users/yourusername/posts/",
+        "platform": "Habr"
+      },
+      {
+        "title": "Clean Architecture in Python Projects",
+        "date": "November 2023",
+        "description": "How to structure Python projects for maintainability and testability using clean architecture principles.",
+        "url": "https://medium.com/@yourusername/article-3",
+        "platform": "Medium"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's connect",
+    "description": "I'm open to internships, research collaborations, and interesting projects. Feel free to reach out through any channel below.",
+    "links": [
+      { "label": "GitHub", "url": "https://github.com/meganis0-0", "type": "github" },
+      { "label": "LinkedIn", "url": "https://linkedin.com/in/yourusername", "type": "linkedin" },
+      { "label": "Email", "url": "mailto:you@example.com", "type": "email" },
+      { "label": "Telegram", "url": "https://t.me/yourusername", "type": "telegram" }
+    ]
+  }
+}
